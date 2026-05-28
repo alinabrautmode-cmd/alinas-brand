@@ -1,0 +1,27 @@
+[build]
+  publish = "."
+
+# Redirect old collection URLs to the new category structure
+[[redirects]]
+  from = "/catalog-2025"
+  to = "/catalog-dresses.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/catalog-2025.html"
+  to = "/catalog-dresses.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/catalog-2026"
+  to = "/catalog-dresses.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/catalog-2026.html"
+  to = "/catalog-dresses.html"
+  status = 301
+  force = true
