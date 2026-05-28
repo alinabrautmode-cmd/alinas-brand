@@ -653,6 +653,22 @@ p {
   line-height: 1.8;
 }
 
+.catalog-model__tagline {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  color: var(--color-text);
+  margin-bottom: 8px;
+}
+
+.catalog-model__description {
+  max-width: 680px;
+  margin: 0 auto 10px;
+  font-size: 0.92rem;
+  color: var(--color-text-soft);
+  line-height: 1.7;
+}
+
+
 /* ========================================
    SIZE CHART
    ======================================== */

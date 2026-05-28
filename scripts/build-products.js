@@ -15,7 +15,19 @@ function readJson(filePath) {
 }
 
 function normalizeArray(value) {
-  if (Array.isArray(value)) return value.filter(Boolean).map(String);
+  if (Array.isArray(value)) {
+    return value
+      .map((item) => {
+        if (!item) return '';
+        if (typeof item === 'string') return item;
+        if (typeof item === 'object') {
+          return item.image || item.url || item.path || item.file || item.value || '';
+        }
+        return String(item);
+      })
+      .map((item) => String(item).trim())
+      .filter(Boolean);
+  }
   if (typeof value === 'string' && value.trim()) return [value.trim()];
   return [];
 }
@@ -56,8 +68,18 @@ function buildProducts() {
     .filter((file) => file.endsWith('.json'))
     .sort();
 
-  const products = files
-    .map((file) => normalizeProduct(readJson(path.join(productsDir, file)), file))
+  const normalizedProducts = files
+    .map((file) => normalizeProduct(readJson(path.join(productsDir, file)), file));
+
+  const duplicateArticles = normalizedProducts
+    .map((product) => product.article)
+    .filter((article, index, articles) => articles.indexOf(article) !== index);
+
+  if (duplicateArticles.length) {
+    throw new Error(`Duplicate product article(s): ${[...new Set(duplicateArticles)].join(', ')}`);
+  }
+
+  const products = normalizedProducts
     .filter((product) => product.published)
     .sort((a, b) => {
       if (a.category !== b.category) return a.category.localeCompare(b.category);

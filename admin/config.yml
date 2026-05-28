@@ -1,0 +1,101 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: alinabrautmode-cmd/alinas-brand
+  branch: main
+
+site_url: https://tourmaline-crostata-399be4.netlify.app
+display_url: https://tourmaline-crostata-399be4.netlify.app
+
+media_folder: assets/img/uploads
+public_folder: assets/img/uploads
+
+collections:
+  - name: products
+    label: Товари
+    label_singular: Товар
+    folder: content/products
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{article}}"
+    identifier_field: article
+    summary: "{{article}} — {{name}}"
+    sortable_fields: [article, category, sortOrder, name]
+    view_filters:
+      - label: Опубліковані
+        field: published
+        pattern: true
+      - label: Сукні
+        field: category
+        pattern: dresses
+      - label: Костюми
+        field: category
+        pattern: suits
+      - label: Комбінезони
+        field: category
+        pattern: jumpsuits
+    fields:
+      - label: Артикул
+        name: article
+        widget: string
+        hint: "Наприклад: AB-2605. Не змінюй артикул старого товару, якщо він вже використовується на сайті."
+      - label: Категорія
+        name: category
+        widget: select
+        options:
+          - { label: "Сукні", value: "dresses" }
+          - { label: "Костюми", value: "suits" }
+          - { label: "Комбінезони", value: "jumpsuits" }
+      - label: Назва
+        name: name
+        widget: string
+        hint: "Наприклад: Art. AB-2605 або коротка назва моделі."
+      - label: Короткий підзаголовок
+        name: tagline
+        widget: string
+        required: false
+        hint: "Короткий опис у 2–4 слова, наприклад: Evening gown."
+      - label: Опис товару
+        name: description
+        widget: text
+        required: false
+      - label: Кольори
+        name: colors
+        widget: list
+        required: false
+        field: { label: "Колір", name: "color", widget: "string" }
+      - label: Розміри
+        name: sizes
+        widget: list
+        required: false
+        field: { label: "Розмір", name: "size", widget: "string" }
+      - label: Наявність / умови
+        name: availability
+        widget: string
+        required: false
+        hint: "Наприклад: Made to order."
+      - label: Фото товару
+        name: images
+        widget: list
+        min: 1
+        max: 8
+        hint: "Перше фото буде головним. Рекомендовано 2–3 фото на товар."
+        field: { label: "Фото", name: "image", widget: "image" }
+      - label: Посилання на окрему сторінку товару
+        name: pageUrl
+        widget: string
+        required: false
+        hint: "Залишай порожнім для нових товарів. Якщо поле порожнє — кнопка веде в WhatsApp."
+      - label: Показувати на сайті
+        name: published
+        widget: boolean
+        default: true
+      - label: Порядок сортування
+        name: sortOrder
+        widget: number
+        value_type: int
+        default: 100
+        hint: "Менше число = вище товар у каталозі."

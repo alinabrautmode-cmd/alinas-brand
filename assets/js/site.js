@@ -6,6 +6,26 @@
 (function () {
   'use strict';
 
+  function escapeHtml(value) {
+    return String(value || '').replace(/[&<>"']/g, function (char) {
+      return {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[char];
+    });
+  }
+
+  function escapeAttr(value) {
+    return escapeHtml(value);
+  }
+
+  function listText(value) {
+    return Array.isArray(value) && value.length ? value.join(', ') : '—';
+  }
+
   /* ---------- Fade-in on scroll ---------- */
   function initFadeIn() {
     var obs = new IntersectionObserver(function (entries) {
@@ -143,35 +163,48 @@
     if (emptyState) emptyState.hidden = true;
 
     grid.innerHTML = products.map(function (p) {
-      var galleryImages = p.images.slice(0, 3);
+      var galleryImages = (p.images || []).slice(0, 3);
       // Ensure 3 frames for layout consistency by repeating the last image if needed
       while (galleryImages.length < 3 && galleryImages.length > 0) {
         galleryImages.push(galleryImages[galleryImages.length - 1]);
       }
 
+      var productUrl = p.pageUrl ? escapeAttr(p.pageUrl) : '';
+      var safeName = escapeHtml(p.name || p.article);
+      var safeArticle = escapeHtml(p.article);
+      var safeTagline = escapeHtml(p.tagline || '');
+      var safeDescription = escapeHtml(p.description || '');
+      var safeColors = escapeHtml(listText(p.colors));
+      var safeSizes = escapeHtml(listText(p.sizes));
+      var safeAvailability = escapeHtml(p.availability || '');
+
       var galleryHtml = galleryImages.map(function (src, idx) {
-        var alt = p.name + ' image ' + (idx + 1);
-        if (p.pageUrl) {
-          return '<a class="catalog-model__frame" href="' + p.pageUrl + '">' +
-                   '<img src="' + src + '" alt="' + alt + '" loading="lazy">' +
+        var safeSrc = escapeAttr(src);
+        var alt = safeName + ' image ' + (idx + 1);
+        if (productUrl) {
+          return '<a class="catalog-model__frame" href="' + productUrl + '">' +
+                   '<img src="' + safeSrc + '" alt="' + alt + '" loading="lazy">' +
                  '</a>';
         }
         return '<div class="catalog-model__frame">' +
-                 '<img src="' + src + '" alt="' + alt + '" loading="lazy">' +
+                 '<img src="' + safeSrc + '" alt="' + alt + '" loading="lazy">' +
                '</div>';
       }).join('');
 
-      var ctaHtml = p.pageUrl
-        ? '<a href="' + p.pageUrl + '" class="catalog-model__cta">View details</a>'
+      var ctaHtml = productUrl
+        ? '<a href="' + productUrl + '" class="catalog-model__cta">View details</a>'
         : '<a href="https://wa.me/380937709193" target="_blank" rel="noopener" class="catalog-model__cta">Enquire on WhatsApp</a>';
 
       return '' +
         '<article class="catalog-model fade-in" id="' + p.article.toLowerCase() + '">' +
           '<div class="catalog-model__gallery">' + galleryHtml + '</div>' +
           '<div class="catalog-model__caption">' +
-            '<div class="catalog-model__article">Art. ' + p.article + '</div>' +
-            '<div class="catalog-model__meta">Available colors: ' + p.colors.join(', ') + '</div>' +
-            '<div class="catalog-model__meta">Available sizes: ' + p.sizes.join(', ') + '</div>' +
+            '<div class="catalog-model__article">Art. ' + safeArticle + '</div>' +
+            (safeTagline ? '<div class="catalog-model__tagline">' + safeTagline + '</div>' : '') +
+            (safeDescription ? '<p class="catalog-model__description">' + safeDescription + '</p>' : '') +
+            '<div class="catalog-model__meta">Available colors: ' + safeColors + '</div>' +
+            '<div class="catalog-model__meta">Available sizes: ' + safeSizes + '</div>' +
+            (safeAvailability ? '<div class="catalog-model__meta">' + safeAvailability + '</div>' : '') +
             ctaHtml +
           '</div>' +
         '</article>';
