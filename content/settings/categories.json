@@ -1,0 +1,17 @@
+{
+  "dresses": {
+    "title": "Dresses",
+    "subtitle": "Evening gowns, midi and occasion dresses",
+    "emptyMessage": "New dresses are coming soon. Reach out via WhatsApp or Instagram for current availability."
+  },
+  "suits": {
+    "title": "Suits",
+    "subtitle": "Tailored sets for receptions and city events",
+    "emptyMessage": "New suits are coming soon. Reach out via WhatsApp or Instagram for current availability."
+  },
+  "jumpsuits": {
+    "title": "Jumpsuits",
+    "subtitle": "Modern one-piece silhouettes for special occasions",
+    "emptyMessage": "New jumpsuits are coming soon. Reach out via WhatsApp or Instagram for current availability."
+  }
+}

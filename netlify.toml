@@ -1,4 +1,5 @@
 [build]
+  command = "npm run build"
   publish = "."
 
 # Redirect old collection URLs to the new category structure
