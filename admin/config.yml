@@ -26,6 +26,7 @@ collections:
             widget: object
             fields:
               - { label: Головне фото, name: image, widget: image, hint: "Широке фото для першого екрану. Рекомендовано приблизно 2400×1400." }
+              - { label: Мобільне головне фото, name: mobileImage, widget: image, required: false, hint: "Окреме вертикальне фото для телефону. Рекомендовано 1200×1600 або 4:5. Якщо залишити пустим — на телефоні буде використовуватись головне фото." }
               - { label: Позиція фото, name: imagePosition, widget: string, required: false, hint: "Наприклад: center center, center 22%, center top." }
               - { label: Малий текст над заголовком, name: overtitle, widget: string, required: false }
               - { label: Заголовок, name: title, widget: string }

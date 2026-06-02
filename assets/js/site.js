@@ -26,6 +26,10 @@
     return Array.isArray(value) && value.length ? value.join(', ') : '—';
   }
 
+  function cssUrl(value) {
+    return 'url("' + String(value || '').replace(/\/g, '\\').replace(/"/g, '\"') + '")';
+  }
+
   /* ---------- Fade-in on scroll ---------- */
   function initFadeIn() {
     var obs = new IntersectionObserver(function (entries) {
@@ -70,7 +74,11 @@
     var hero = home.hero || {};
     var heroBg = document.querySelector('[data-home-hero-image]');
     if (heroBg && hero.image) {
-      heroBg.style.backgroundImage = 'url("' + hero.image + '")';
+      heroBg.style.backgroundImage = cssUrl(hero.image);
+      heroBg.style.setProperty('--hero-image-desktop', cssUrl(hero.image));
+    }
+    if (heroBg && hero.mobileImage) {
+      heroBg.style.setProperty('--hero-image-mobile', cssUrl(hero.mobileImage));
     }
     if (heroBg && hero.imagePosition) {
       heroBg.style.backgroundPosition = hero.imagePosition;

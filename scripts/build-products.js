@@ -123,6 +123,7 @@ function normalizeHomeContent(raw) {
   const defaultHome = {
     hero: {
       image: 'assets/img/hero-photo.jpg',
+      mobileImage: '',
       imagePosition: 'center 22%',
       overtitle: 'Ukrainian eveningwear label',
       title: 'Occasionwear for moments that matter',
@@ -167,6 +168,7 @@ function normalizeHomeContent(raw) {
   return {
     hero: {
       image: normalizeHomeImage(hero.image) || defaultHome.hero.image,
+      mobileImage: normalizeHomeImage(hero.mobileImage) || '',
       imagePosition: String(hero.imagePosition || defaultHome.hero.imagePosition).trim(),
       overtitle: String(hero.overtitle || defaultHome.hero.overtitle).trim(),
       title: String(hero.title || defaultHome.hero.title).trim(),

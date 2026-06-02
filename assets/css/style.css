@@ -1662,3 +1662,12 @@ body.nav-open {
     margin-top: 8px;
   }
 }
+
+
+/* STEP 16 — Optional separate mobile hero image from CMS */
+@media (max-width: 720px) {
+  .hero--photo .hero__bg[data-home-hero-image] {
+    background-image: var(--hero-image-mobile, var(--hero-image-desktop)) !important;
+    background-position: center top;
+  }
+}
