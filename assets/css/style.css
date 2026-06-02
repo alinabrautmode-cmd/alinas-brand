@@ -1535,3 +1535,130 @@ body.nav-open {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+/* ========================================
+   STEP 15 — MOBILE HERO, MOBILE PRODUCT SWIPE & IMAGE POLISH
+   ======================================== */
+
+/* Keep product/category photos consistently rendered to reduce desktop shimmer/grain during hover transitions. */
+.catalog-model__frame img,
+.collection-card__image,
+.about__image img,
+.product-gallery__main img,
+.product-thumb img {
+  image-rendering: auto;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.catalog-model__frame:hover img,
+.collection-card:hover .collection-card__image,
+.about__image:hover img {
+  transform: translateZ(0) scale(1.025);
+  -webkit-transform: translateZ(0) scale(1.025);
+}
+
+/* Mobile: show the home hero photo instead of hiding the first screen. */
+@media (max-width: 720px) {
+  .hero--photo {
+    display: flex;
+    min-height: calc(100svh - var(--header-height));
+    height: auto;
+    padding: clamp(36px, 9vw, 60px) 0 clamp(42px, 10vw, 72px);
+    align-items: flex-end;
+  }
+
+  .hero--photo .hero__bg {
+    opacity: 1;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .hero--photo::before {
+    background:
+      linear-gradient(180deg, rgba(255,255,255,0.58) 0%, rgba(255,255,255,0.46) 34%, rgba(255,255,255,0.86) 100%);
+  }
+
+  .hero--photo::after {
+    background:
+      linear-gradient(180deg, rgba(248,246,243,0.04) 0%, rgba(248,246,243,0.12) 45%, rgba(248,246,243,0.52) 100%);
+  }
+
+  .hero__content--left {
+    max-width: 100%;
+    text-align: center;
+    padding: 28px 20px 0;
+  }
+
+  .hero__overtitle {
+    margin-bottom: 12px;
+    font-size: 0.62rem;
+  }
+
+  .hero__title {
+    font-size: clamp(2.35rem, 12vw, 3.55rem);
+    line-height: 1.05;
+    margin-bottom: 16px;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+    line-height: 1.55;
+    margin-bottom: 24px;
+  }
+
+  .hero__cta {
+    max-width: 320px;
+  }
+
+  .hero__kicker {
+    margin-top: 16px;
+    color: var(--color-text-soft);
+    font-size: 0.64rem;
+    line-height: 1.5;
+  }
+
+  .hero--photo + .section {
+    padding-top: clamp(54px, 12vw, 78px);
+  }
+}
+
+/* Mobile catalog: one product photo at a time with horizontal swipe instead of 3 stacked photos. */
+@media (max-width: 720px) {
+  .catalog-model__gallery {
+    display: flex;
+    grid-template-columns: none;
+    gap: 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 0;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 10px;
+    overscroll-behavior-x: contain;
+  }
+
+  .catalog-model__gallery::-webkit-scrollbar {
+    display: none;
+  }
+
+  .catalog-model__gallery {
+    scrollbar-width: none;
+  }
+
+  .catalog-model__frame {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .catalog-model__caption {
+    padding-top: 10px;
+  }
+
+  .catalog-model__cta {
+    margin-top: 8px;
+  }
+}
