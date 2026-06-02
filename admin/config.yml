@@ -12,6 +12,54 @@ media_folder: assets/img/uploads
 public_folder: assets/img/uploads
 
 collections:
+  - name: pages
+    label: Сторінки
+    files:
+      - name: home
+        label: Головна сторінка
+        file: content/pages/home.json
+        format: json
+        fields:
+          - label: Головний екран
+            name: hero
+            widget: object
+            fields:
+              - { label: Головне фото, name: image, widget: image, hint: "Широке фото для першого екрану. Рекомендовано приблизно 2400×1400." }
+              - { label: Позиція фото, name: imagePosition, widget: string, required: false, hint: "Наприклад: center center, center 22%, center top." }
+              - { label: Малий текст над заголовком, name: overtitle, widget: string, required: false }
+              - { label: Заголовок, name: title, widget: string }
+              - { label: Підзаголовок, name: subtitle, widget: text, required: false }
+              - { label: Текст кнопки, name: buttonText, widget: string, required: false }
+              - { label: Посилання кнопки, name: buttonUrl, widget: string, required: false, hint: "Наприклад: catalog-dresses.html" }
+              - { label: Нижній підпис, name: kicker, widget: string, required: false }
+          - label: Блоки категорій
+            name: categories
+            widget: object
+            fields:
+              - label: Сукні
+                name: dresses
+                widget: object
+                fields:
+                  - { label: Фото, name: image, widget: image, hint: "Вертикальне фото для блоку Dresses. Рекомендовано 1200×1600 або 4:5." }
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Підпис, name: subtitle, widget: string, required: false }
+                  - { label: Посилання, name: url, widget: string, default: "catalog-dresses.html" }
+              - label: Костюми
+                name: suits
+                widget: object
+                fields:
+                  - { label: Фото, name: image, widget: image, hint: "Вертикальне фото для блоку Suits. Рекомендовано 1200×1600 або 4:5." }
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Підпис, name: subtitle, widget: string, required: false }
+                  - { label: Посилання, name: url, widget: string, default: "catalog-suits.html" }
+              - label: Комбінезони
+                name: jumpsuits
+                widget: object
+                fields:
+                  - { label: Фото, name: image, widget: image, hint: "Вертикальне фото для блоку Jumpsuits. Рекомендовано 1200×1600 або 4:5." }
+                  - { label: Назва, name: title, widget: string }
+                  - { label: Підпис, name: subtitle, widget: string, required: false }
+                  - { label: Посилання, name: url, widget: string, default: "catalog-jumpsuits.html" }
   - name: products
     label: Товари
     label_singular: Товар

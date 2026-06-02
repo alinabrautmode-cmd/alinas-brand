@@ -62,6 +62,53 @@
 
 
 
+  /* ---------- CMS-managed home page content ---------- */
+  function initHomeContent() {
+    var home = window.ALINAS_BRAND_HOME;
+    if (!home) return;
+
+    var hero = home.hero || {};
+    var heroBg = document.querySelector('[data-home-hero-image]');
+    if (heroBg && hero.image) {
+      heroBg.style.backgroundImage = 'url("' + hero.image + '")';
+    }
+    if (heroBg && hero.imagePosition) {
+      heroBg.style.backgroundPosition = hero.imagePosition;
+    }
+
+    var heroOvertitle = document.querySelector('[data-home-hero-overtitle]');
+    var heroTitle = document.querySelector('[data-home-hero-title]');
+    var heroSubtitle = document.querySelector('[data-home-hero-subtitle]');
+    var heroButton = document.querySelector('[data-home-hero-button]');
+    var heroKicker = document.querySelector('[data-home-hero-kicker]');
+
+    if (heroOvertitle && hero.overtitle) heroOvertitle.textContent = hero.overtitle;
+    if (heroTitle && hero.title) heroTitle.textContent = hero.title;
+    if (heroSubtitle && hero.subtitle) heroSubtitle.textContent = hero.subtitle;
+    if (heroButton) {
+      if (hero.buttonText) heroButton.textContent = hero.buttonText;
+      if (hero.buttonUrl) heroButton.setAttribute('href', hero.buttonUrl);
+    }
+    if (heroKicker && hero.kicker) heroKicker.textContent = hero.kicker;
+
+    var categories = home.categories || {};
+    Object.keys(categories).forEach(function (key) {
+      var data = categories[key] || {};
+      var card = document.querySelector('[data-home-category="' + key + '"]');
+      if (!card) return;
+
+      var image = card.querySelector('[data-home-category-image]');
+      var title = card.querySelector('[data-home-category-title]');
+      var subtitle = card.querySelector('[data-home-category-subtitle]');
+
+      if (data.url) card.setAttribute('href', data.url);
+      if (image && data.image) image.setAttribute('src', data.image);
+      if (image && data.title) image.setAttribute('alt', data.title);
+      if (title && data.title) title.textContent = data.title;
+      if (subtitle && data.subtitle) subtitle.textContent = data.subtitle;
+    });
+  }
+
   /* ---------- Product page gallery ---------- */
   function initProductGallery() {
     document.querySelectorAll('[data-product-gallery]').forEach(function (gallery) {
@@ -258,6 +305,7 @@
   /* ---------- Init on DOM ready ---------- */
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', function () {
+      initHomeContent();
       initMobileNav();
       initSearch();
       initProductGallery();
@@ -265,6 +313,7 @@
       initFadeIn();
     });
   } else {
+    initHomeContent();
     initMobileNav();
     initSearch();
     initProductGallery();

@@ -64,13 +64,13 @@
   </div>
 
   <section class="hero hero--photo">
-    <div class="hero__bg" style="background-image: url('assets/img/hero-photo.jpg'); background-position: center 22%;"></div>
+    <div class="hero__bg" data-home-hero-image data-home-hero-position style="background-image: url('assets/img/hero-photo.jpg'); background-position: center 22%;"></div>
     <div class="hero__content hero__content--left">
-      <div class="hero__overtitle">Ukrainian eveningwear label</div>
-      <h1 class="hero__title">Occasionwear for moments that matter</h1>
-      <p class="hero__subtitle">Elegant dresses and refined silhouettes designed for weddings, receptions, celebrations and special evenings.</p>
-      <a href="catalog-dresses.html" class="hero__cta">Browse the collection</a>
-      <div class="hero__kicker">Made to order with attention to fit, fabric and finish</div>
+      <div class="hero__overtitle" data-home-hero-overtitle>Ukrainian eveningwear label</div>
+      <h1 class="hero__title" data-home-hero-title>Occasionwear for moments that matter</h1>
+      <p class="hero__subtitle" data-home-hero-subtitle>Elegant dresses and refined silhouettes designed for weddings, receptions, celebrations and special evenings.</p>
+      <a href="catalog-dresses.html" class="hero__cta" data-home-hero-button>Browse the collection</a>
+      <div class="hero__kicker" data-home-hero-kicker>Made to order with attention to fit, fabric and finish</div>
     </div>
   </section>
 
@@ -100,25 +100,25 @@
       </div>
 
       <div class="collections-grid fade-in">
-        <a href="catalog-dresses.html" class="collection-card">
-          <img src="assets/img/products/ab-2601/ab-2601-2.jpg" alt="Dresses" class="collection-card__image">
+        <a href="catalog-dresses.html" class="collection-card" data-home-category="dresses">
+          <img src="assets/img/products/ab-2601/ab-2601-2.jpg" alt="Dresses" class="collection-card__image" data-home-category-image>
           <div class="collection-card__overlay">
-            <h3 class="collection-card__title">Dresses</h3>
-            <span class="collection-card__count">Evening gowns and occasion dresses</span>
+            <h3 class="collection-card__title" data-home-category-title>Dresses</h3>
+            <span class="collection-card__count" data-home-category-subtitle>Evening gowns and occasion dresses</span>
           </div>
         </a>
-        <a href="catalog-suits.html" class="collection-card">
-          <img src="assets/img/hero-photo.jpg" alt="Suits" class="collection-card__image">
+        <a href="catalog-suits.html" class="collection-card" data-home-category="suits">
+          <img src="assets/img/hero-photo.jpg" alt="Suits" class="collection-card__image" data-home-category-image>
           <div class="collection-card__overlay">
-            <h3 class="collection-card__title">Suits</h3>
-            <span class="collection-card__count">Tailored sets for receptions</span>
+            <h3 class="collection-card__title" data-home-category-title>Suits</h3>
+            <span class="collection-card__count" data-home-category-subtitle>Tailored sets for receptions</span>
           </div>
         </a>
-        <a href="catalog-jumpsuits.html" class="collection-card">
-          <img src="assets/img/editorial/home-occasion.jpg" alt="Jumpsuits" class="collection-card__image">
+        <a href="catalog-jumpsuits.html" class="collection-card" data-home-category="jumpsuits">
+          <img src="assets/img/editorial/home-occasion.jpg" alt="Jumpsuits" class="collection-card__image" data-home-category-image>
           <div class="collection-card__overlay">
-            <h3 class="collection-card__title">Jumpsuits</h3>
-            <span class="collection-card__count">Modern one-piece silhouettes</span>
+            <h3 class="collection-card__title" data-home-category-title>Jumpsuits</h3>
+            <span class="collection-card__count" data-home-category-subtitle>Modern one-piece silhouettes</span>
           </div>
         </a>
       </div>
@@ -193,6 +193,7 @@
     </svg>
   </a>
 
+  <script src="assets/js/home.js"></script>
   <script src="assets/js/products.js"></script>
   <script src="assets/js/site.js"></script>
 </body>
