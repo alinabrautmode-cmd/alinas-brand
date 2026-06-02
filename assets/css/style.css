@@ -632,6 +632,11 @@ p {
   transform: scale(1.04);
 }
 
+/* Desktop: keep catalog layout as 3 preview photos even if CMS has more images. */
+.catalog-model__frame:nth-child(n+4) {
+  display: none;
+}
+
 .catalog-model__caption {
   text-align: center;
   padding-top: 4px;
@@ -1652,6 +1657,10 @@ body.nav-open {
     flex: 0 0 100%;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+  }
+
+  .catalog-model__frame:nth-child(n+4) {
+    display: block;
   }
 
   .catalog-model__caption {

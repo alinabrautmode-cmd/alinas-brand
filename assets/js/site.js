@@ -27,7 +27,7 @@
   }
 
   function cssUrl(value) {
-    return 'url("' + String(value || '').replace(/\/g, '\\').replace(/"/g, '\"') + '")';
+    return 'url("' + String(value || '').replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '")';
   }
 
   /* ---------- Fade-in on scroll ---------- */
@@ -245,11 +245,9 @@
     if (emptyState) emptyState.hidden = true;
 
     grid.innerHTML = products.map(function (p) {
-      var galleryImages = (p.images || []).slice(0, 3);
-      // Ensure 3 frames for layout consistency by repeating the last image if needed
-      while (galleryImages.length < 3 && galleryImages.length > 0) {
-        galleryImages.push(galleryImages[galleryImages.length - 1]);
-      }
+      // Render every product image. Desktop CSS still shows only the first 3,
+      // while mobile turns the full image list into a swipeable carousel.
+      var galleryImages = (p.images || []).filter(Boolean);
 
       var productUrl = p.pageUrl ? escapeAttr(p.pageUrl) : '';
       var safeName = escapeHtml(p.name || p.article);
