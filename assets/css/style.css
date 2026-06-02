@@ -1511,3 +1511,27 @@ p {
 body.nav-open {
   overflow: hidden;
 }
+
+/* ========================================
+   PRODUCT PAGE — EXTENDED GALLERY
+   ======================================== */
+.product-gallery__thumbs {
+  grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+}
+
+.product-gallery__placeholder {
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-soft);
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 560px) {
+  .product-gallery__thumbs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

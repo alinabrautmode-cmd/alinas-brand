@@ -60,6 +60,33 @@
     });
   }
 
+
+
+  /* ---------- Product page gallery ---------- */
+  function initProductGallery() {
+    document.querySelectorAll('[data-product-gallery]').forEach(function (gallery) {
+      var mainImage = gallery.querySelector('[data-product-main-image]');
+      var thumbs = gallery.querySelectorAll('[data-product-thumb]');
+      if (!mainImage || !thumbs.length) return;
+
+      thumbs.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var nextImage = button.getAttribute('data-image');
+          var nextAlt = button.getAttribute('data-alt') || mainImage.alt;
+          if (!nextImage) return;
+
+          mainImage.src = nextImage;
+          mainImage.alt = nextAlt;
+
+          thumbs.forEach(function (item) {
+            item.classList.remove('is-active');
+          });
+          button.classList.add('is-active');
+        });
+      });
+    });
+  }
+
   /* ---------- Search by article ---------- */
   function initSearch() {
     var toggle = document.querySelector('.search-toggle');
@@ -192,7 +219,7 @@
       }).join('');
 
       var ctaHtml = productUrl
-        ? '<a href="' + productUrl + '" class="catalog-model__cta">View details</a>'
+        ? '<a href="' + productUrl + '" class="catalog-model__cta">View product</a>'
         : '<a href="https://wa.me/380937709193" target="_blank" rel="noopener" class="catalog-model__cta">Enquire on WhatsApp</a>';
 
       return '' +
@@ -233,12 +260,14 @@
     document.addEventListener('DOMContentLoaded', function () {
       initMobileNav();
       initSearch();
+      initProductGallery();
       initCatalog();
       initFadeIn();
     });
   } else {
     initMobileNav();
     initSearch();
+    initProductGallery();
     initCatalog();
     initFadeIn();
   }

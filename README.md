@@ -119,3 +119,16 @@ Old Instagram / share links don't 404.
 python3 -m http.server 8000
 # open http://127.0.0.1:8000
 ```
+
+
+## Product pages update
+
+Product pages are generated automatically during `npm run build` for every published product in `content/products`.
+
+For article `AB692`, the page URL will be:
+
+```txt
+/product/ab692/
+```
+
+Do not add a manual product page link in the CMS. The URL is generated from the Article field.
