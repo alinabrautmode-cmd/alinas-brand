@@ -4,6 +4,7 @@ backend:
   name: github
   repo: alinabrautmode-cmd/alinas-brand
   branch: main
+  base_url: https://alinasbrand-cms-auth.alinabrautmode.workers.dev
 
 site_url: https://www.alinasbrand.com
 display_url: https://www.alinasbrand.com
