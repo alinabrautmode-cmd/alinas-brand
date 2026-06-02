@@ -26,3 +26,9 @@
   to = "/catalog-dresses.html"
   status = 301
   force = true
+
+# Clean product URLs, e.g. /product/ab-2601 -> /product-ab-2601.html
+[[redirects]]
+  from = "/product/:article"
+  to = "/product-:article.html"
+  status = 200
