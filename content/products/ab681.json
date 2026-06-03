@@ -1,0 +1,27 @@
+{
+  "article": "AB681",
+  "category": "suits",
+  "name": "AB681",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/IMG_5015.JPEG",
+    "/assets/img/uploads/IMG_4996.JPEG",
+    "/assets/img/uploads/IMG_5110.JPEG",
+    "/assets/img/uploads/IMG_5139.JPEG",
+    "/assets/img/uploads/IMG_5228.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 1
+}
