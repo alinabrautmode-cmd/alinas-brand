@@ -10,7 +10,12 @@
     "pink",
     "light blue"
   ],
-  "sizes": [],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
   "availability": "Made to order",
   "images": [
     "/assets/img/uploads/IMG_6353.JPG",
