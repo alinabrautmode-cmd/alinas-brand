@@ -1,0 +1,30 @@
+{
+  "article": "AB685",
+  "category": "dresses",
+  "name": "Fabric: premium diagonal suit crepe",
+  "tagline": "",
+  "description": "Length: 82 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "burgundy"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "assets/img/uploads/dresses/IMG_9139.JPEG",
+    "assets/img/uploads/dresses/IMG_9193.JPEG",
+    "assets/img/uploads/dresses/IMG_9016.JPEG",
+    "assets/img/uploads/dresses/IMG_9090.JPEG",
+    "assets/img/uploads/dresses/IMG_9207.JPEG",
+    "assets/img/uploads/dresses/IMG_9094.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 12
+}
