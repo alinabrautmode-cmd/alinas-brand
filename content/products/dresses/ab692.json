@@ -1,0 +1,35 @@
+{
+  "article": "AB692",
+  "category": "dresses",
+  "name": "Fabric: Premium-quality double-sided satin.                    Length: 150 cm",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "red",
+    "green",
+    "chocolate",
+    "lemon",
+    "pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/IMG_7607.JPEG",
+    "/assets/img/uploads/IMG_7561.JPEG",
+    "/assets/img/uploads/IMG_7600.JPEG",
+    "/assets/img/uploads/IMG_7634.JPEG",
+    "/assets/img/uploads/IMG_7645.JPEG",
+    "/assets/img/uploads/IMG_7652.JPEG",
+    "/assets/img/uploads/IMG_7677.JPEG"
+  ],
+  "pageUrl": "",
+  "published": true,
+  "sortOrder": 1
+}

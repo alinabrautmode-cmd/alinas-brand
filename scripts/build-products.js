@@ -422,12 +422,22 @@ function buildProducts() {
     throw new Error(`Products folder does not exist: ${productsDir}`);
   }
 
-  const files = fs.readdirSync(productsDir)
-    .filter((file) => file.endsWith('.json'))
-    .sort();
+  function listProductJsonFiles(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    return entries.flatMap((entry) => {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) return listProductJsonFiles(fullPath);
+      return entry.isFile() && entry.name.endsWith('.json') ? [fullPath] : [];
+    });
+  }
+
+  const files = listProductJsonFiles(productsDir).sort();
 
   const normalizedProducts = files
-    .map((file) => normalizeProduct(readJson(path.join(productsDir, file)), file));
+    .map((filePath) => normalizeProduct(
+      readJson(filePath),
+      path.relative(productsDir, filePath)
+    ));
 
   const duplicateArticles = normalizedProducts
     .map((product) => product.article)

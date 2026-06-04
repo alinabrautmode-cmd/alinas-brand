@@ -1,0 +1,31 @@
+{
+  "article": "AB684",
+  "category": "dresses",
+  "name": "Fabric: premium dense Mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "mocha",
+    "pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/IMG_9131.JPEG",
+    "/assets/img/uploads/IMG_9043.JPEG",
+    "/assets/img/uploads/IMG_9129.JPEG",
+    "/assets/img/uploads/IMG_9133.JPEG",
+    "/assets/img/uploads/IMG_9057.JPEG",
+    "/assets/img/uploads/IMG_8982.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 11
+}

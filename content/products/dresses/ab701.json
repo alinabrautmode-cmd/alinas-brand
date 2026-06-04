@@ -1,0 +1,28 @@
+{
+  "article": "AB701",
+  "category": "dresses",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "red",
+    "emerald"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/IMG_8523.JPEG",
+    "/assets/img/uploads/IMG_8503.JPEG",
+    "/assets/img/uploads/IMG_8362.JPEG",
+    "/assets/img/uploads/IMG_8391.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 4
+}

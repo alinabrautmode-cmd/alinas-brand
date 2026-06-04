@@ -10,7 +10,7 @@ site_url: https://www.alinasbrand.com
 display_url: https://www.alinasbrand.com
 
 media_folder: assets/img/uploads
-public_folder: assets/img/uploads
+public_folder: /assets/img/uploads
 
 collections:
   - name: pages
@@ -62,10 +62,11 @@ collections:
                   - { label: Назва, name: title, widget: string }
                   - { label: Підпис, name: subtitle, widget: string, required: false }
                   - { label: Посилання, name: url, widget: string, default: "catalog-jumpsuits.html" }
-  - name: products
-    label: Товари
-    label_singular: Товар
-    folder: content/products
+
+  - name: dresses
+    label: Сукні
+    label_singular: Сукня
+    folder: content/products/dresses
     create: true
     delete: true
     extension: json
@@ -73,36 +74,22 @@ collections:
     slug: "{{article}}"
     identifier_field: article
     summary: "{{article}} — {{name}}"
-    sortable_fields: [article, category, sortOrder, name]
-    view_filters:
-      - label: Опубліковані
-        field: published
-        pattern: true
-      - label: Сукні
-        field: category
-        pattern: dresses
-      - label: Костюми
-        field: category
-        pattern: suits
-      - label: Комбінезони
-        field: category
-        pattern: jumpsuits
-    fields:
+    sortable_fields: [article, sortOrder, name]
+    media_folder: assets/img/uploads/dresses
+    public_folder: /assets/img/uploads/dresses
+    fields: &product_fields
       - label: Артикул
         name: article
         widget: string
-        hint: "Наприклад: AB-2605. Не змінюй артикул старого товару, якщо він вже використовується на сайті."
+        hint: "Наприклад: AB701. Не змінюй артикул старого товару, якщо він вже використовується на сайті."
       - label: Категорія
         name: category
-        widget: select
-        options:
-          - { label: "Сукні", value: "dresses" }
-          - { label: "Костюми", value: "suits" }
-          - { label: "Комбінезони", value: "jumpsuits" }
+        widget: hidden
+        default: dresses
       - label: Назва
         name: name
         widget: string
-        hint: "Наприклад: Art. AB-2605 або коротка назва моделі."
+        hint: "Наприклад: Art. AB701 або коротка назва моделі."
       - label: Короткий підзаголовок
         name: tagline
         widget: string
@@ -144,3 +131,35 @@ collections:
         value_type: int
         default: 100
         hint: "Менше число = вище товар у каталозі."
+
+  - name: suits
+    label: Костюми
+    label_singular: Костюм
+    folder: content/products/suits
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{article}}"
+    identifier_field: article
+    summary: "{{article}} — {{name}}"
+    sortable_fields: [article, sortOrder, name]
+    media_folder: assets/img/uploads/suits
+    public_folder: /assets/img/uploads/suits
+    fields: *product_fields
+
+  - name: jumpsuits
+    label: Комбінезони
+    label_singular: Комбінезон
+    folder: content/products/jumpsuits
+    create: true
+    delete: true
+    extension: json
+    format: json
+    slug: "{{article}}"
+    identifier_field: article
+    summary: "{{article}} — {{name}}"
+    sortable_fields: [article, sortOrder, name]
+    media_folder: assets/img/uploads/jumpsuits
+    public_folder: /assets/img/uploads/jumpsuits
+    fields: *product_fields
