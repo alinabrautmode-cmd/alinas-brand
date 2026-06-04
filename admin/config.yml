@@ -75,7 +75,7 @@ collections:
     identifier_field: article
     summary: "{{article}} — {{name}}"
     sortable_fields: [article, sortOrder, name]
-    media_folder: assets/img/uploads/dresses
+    media_folder: /assets/img/uploads/dresses
     public_folder: /assets/img/uploads/dresses
     fields: &product_fields
       - label: Артикул
@@ -144,7 +144,7 @@ collections:
     identifier_field: article
     summary: "{{article}} — {{name}}"
     sortable_fields: [article, sortOrder, name]
-    media_folder: assets/img/uploads/suits
+    media_folder: /assets/img/uploads/suits
     public_folder: /assets/img/uploads/suits
     fields: *product_fields
 
@@ -160,6 +160,6 @@ collections:
     identifier_field: article
     summary: "{{article}} — {{name}}"
     sortable_fields: [article, sortOrder, name]
-    media_folder: assets/img/uploads/jumpsuits
+    media_folder: /assets/img/uploads/jumpsuits
     public_folder: /assets/img/uploads/jumpsuits
     fields: *product_fields
