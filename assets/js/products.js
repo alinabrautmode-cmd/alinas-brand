@@ -9,15 +9,19 @@
 
 window.ALINAS_BRAND_PRODUCTS = [
   {
-    "article": "AB-2601",
+    "article": "AB692",
     "category": "dresses",
-    "name": "Art. AB-2601",
-    "tagline": "Signature gown",
-    "description": "A sleek halter gown with an open back and a fluid silhouette designed for evening events, receptions and formal celebrations.",
+    "name": "Fabric: Premium-quality double-sided satin.                    Length: 150 cm",
+    "tagline": "",
+    "description": "",
     "colors": [
-      "White",
-      "Red",
-      "Black"
+      "ivory",
+      "black",
+      "red",
+      "green",
+      "chocolate",
+      "lemon",
+      "pink"
     ],
     "sizes": [
       "XS",
@@ -27,21 +31,29 @@ window.ALINAS_BRAND_PRODUCTS = [
     ],
     "availability": "Made to order",
     "images": [
-      "assets/img/products/ab-2601/ab-2601-1.jpg",
-      "assets/img/products/ab-2601/ab-2601-2.jpg",
-      "assets/img/products/ab-2601/ab-2601-3.jpg"
+      "/assets/img/uploads/IMG_7607.JPEG",
+      "/assets/img/uploads/IMG_7561.JPEG",
+      "/assets/img/uploads/IMG_7600.JPEG",
+      "/assets/img/uploads/IMG_7634.JPEG",
+      "/assets/img/uploads/IMG_7645.JPEG",
+      "/assets/img/uploads/IMG_7652.JPEG",
+      "/assets/img/uploads/IMG_7677.JPEG"
     ],
-    "pageUrl": "/product/ab-2601"
+    "pageUrl": "/product/ab692"
   },
   {
-    "article": "AB-2602",
+    "article": "AB676",
     "category": "dresses",
-    "name": "Art. AB-2602",
-    "tagline": "Evening gown",
-    "description": "A floor-length evening gown with a structured bodice and a thigh-high slit, tailored for formal events.",
+    "name": "Fabric: Premium diagonal crepe suiting fabric  Length:118 cm",
+    "tagline": "",
+    "description": "",
     "colors": [
-      "White",
-      "Black"
+      "сream",
+      "chocolate",
+      "red",
+      "pink",
+      "yellow",
+      "light blue"
     ],
     "sizes": [
       "XS",
@@ -51,21 +63,28 @@ window.ALINAS_BRAND_PRODUCTS = [
     ],
     "availability": "Made to order",
     "images": [
-      "assets/img/products/ab-2602/ab-2602-1.jpg",
-      "assets/img/products/ab-2602/ab-2602-2.jpg"
+      "/assets/img/uploads/IMG_5541.JPEG",
+      "/assets/img/uploads/IMG_5524.JPEG",
+      "/assets/img/uploads/IMG_5604.JPEG",
+      "/assets/img/uploads/IMG_5543.JPEG",
+      "/assets/img/uploads/IMG_5615.JPEG",
+      "/assets/img/uploads/IMG_5639.JPEG",
+      "/assets/img/uploads/IMG_5644.JPEG",
+      "/assets/img/uploads/IMG_5658.JPEG"
     ],
-    "pageUrl": "/product/ab-2602"
+    "pageUrl": "/product/ab676"
   },
   {
-    "article": "AB-2603",
+    "article": "AB503",
     "category": "dresses",
-    "name": "Art. AB-2603",
-    "tagline": "Midi dress",
-    "description": "A refined strapless midi dress with a fitted bodice and full skirt — easy to style for daytime celebrations and receptions.",
+    "name": "Fabric: premium suiting diagonal crepe Garment length: 114 cm",
+    "tagline": "",
+    "description": "",
     "colors": [
-      "Sky Blue",
-      "Red",
-      "Ivory"
+      "ivory",
+      "black",
+      "pink",
+      "light blue"
     ],
     "sizes": [
       "XS",
@@ -73,23 +92,27 @@ window.ALINAS_BRAND_PRODUCTS = [
       "M",
       "L"
     ],
-    "availability": "Made to order",
+    "availability": "",
     "images": [
-      "assets/img/products/ab-2603/ab-2603-1.jpg",
-      "assets/img/products/ab-2603/ab-2603-2.jpg"
+      "/assets/img/uploads/IMAGE 2026-06-03 165331.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 165339.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 165341.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 165352.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 165357.jpg"
     ],
-    "pageUrl": "/product/ab-2603"
+    "pageUrl": "/product/ab503"
   },
   {
-    "article": "AB-2604",
+    "article": "AB701",
     "category": "dresses",
-    "name": "Art. AB-2604",
-    "tagline": "Occasion dress",
-    "description": "A bustier midi dress with a corset waist and full skirt — designed to feel polished both in photos and across a full evening.",
+    "name": "Fabric: premium suiting diagonal crepe",
+    "tagline": "",
+    "description": "",
     "colors": [
-      "Black",
-      "Pink",
-      "Ivory"
+      "ivory",
+      "black",
+      "red",
+      "emerald"
     ],
     "sizes": [
       "XS",
@@ -99,10 +122,276 @@ window.ALINAS_BRAND_PRODUCTS = [
     ],
     "availability": "Made to order",
     "images": [
-      "assets/img/products/ab-2604/ab-2604-1.jpg",
-      "assets/img/products/ab-2604/ab-2604-2.jpg"
+      "/assets/img/uploads/IMG_8523.JPEG",
+      "/assets/img/uploads/IMG_8503.JPEG",
+      "/assets/img/uploads/IMG_8362.JPEG",
+      "/assets/img/uploads/IMG_8391.JPEG"
     ],
-    "pageUrl": "/product/ab-2604"
+    "pageUrl": "/product/ab701"
+  },
+  {
+    "article": "AB687",
+    "category": "dresses",
+    "name": "Fabric: premium dense Mango satin",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "eucalyptus",
+      "silver",
+      "chocolate"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_6458.JPEG",
+      "/assets/img/uploads/IMG_6467.JPEG",
+      "/assets/img/uploads/IMG_6549.JPEG",
+      "/assets/img/uploads/IMG_6472.JPEG",
+      "/assets/img/uploads/IMG_6562.JPEG"
+    ],
+    "pageUrl": "/product/ab687"
+  },
+  {
+    "article": "AB674",
+    "category": "dresses",
+    "name": "Fabric: premium suiting diagonal crep.        Back length: 60 cm",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "red",
+      "burgundy",
+      "powder"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_0899.JPG",
+      "/assets/img/uploads/IMG_0890.JPG",
+      "/assets/img/uploads/IMG_0895.JPG",
+      "/assets/img/uploads/IMG_0897.JPG",
+      "/assets/img/uploads/IMG_0894.JPG",
+      "/assets/img/uploads/IMG_6632.JPEG"
+    ],
+    "pageUrl": "/product/ab674"
+  },
+  {
+    "article": "AB611",
+    "category": "dresses",
+    "name": "Fabric: premium suiting diagonal crepe",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "yellow",
+      "olive"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_3269.JPEG",
+      "/assets/img/uploads/IMG_3290.JPEG",
+      "/assets/img/uploads/IMG_3334.JPEG",
+      "/assets/img/uploads/IMG_3190.JPEG",
+      "/assets/img/uploads/IMG_3302.JPEG"
+    ],
+    "pageUrl": "/product/ab611"
+  },
+  {
+    "article": "AB679",
+    "category": "dresses",
+    "name": "Fabric: premium dense Mango satin",
+    "tagline": "",
+    "description": "Length: 140 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "mocha",
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_6041.JPEG",
+      "/assets/img/uploads/IMG_6050.JPEG",
+      "/assets/img/uploads/IMG_5985.JPEG",
+      "/assets/img/uploads/IMG_5926.JPEG",
+      "/assets/img/uploads/IMG_5939.JPEG"
+    ],
+    "pageUrl": "/product/ab679"
+  },
+  {
+    "article": "AB680",
+    "category": "dresses",
+    "name": "Fabric: premium suiting diagonal crepe and dense high-quality satin",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "red",
+      "blue",
+      "pink",
+      "yellow"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_0416.JPEG",
+      "/assets/img/uploads/IMG_0428.JPEG",
+      "/assets/img/uploads/IMG_0441.JPEG",
+      "/assets/img/uploads/IMG_0488.JPEG",
+      "/assets/img/uploads/IMG_0495.JPEG",
+      "/assets/img/uploads/IMG_0362.JPEG"
+    ],
+    "pageUrl": "/product/ab680"
+  },
+  {
+    "article": "AB657",
+    "category": "dresses",
+    "name": "Fabric: suiting diagonal crepe, reinforced corset",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "red",
+      "creme"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_3145.JPEG",
+      "/assets/img/uploads/IMG_3229.JPEG",
+      "/assets/img/uploads/IMG_3083.JPEG",
+      "/assets/img/uploads/IMG_3100.JPEG"
+    ],
+    "pageUrl": "/product/ab657"
+  },
+  {
+    "article": "AB684",
+    "category": "dresses",
+    "name": "Fabric: premium dense Mango satin",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "mocha",
+      "pink"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_9131.JPEG",
+      "/assets/img/uploads/IMG_9043.JPEG",
+      "/assets/img/uploads/IMG_9129.JPEG",
+      "/assets/img/uploads/IMG_9133.JPEG",
+      "/assets/img/uploads/IMG_9057.JPEG",
+      "/assets/img/uploads/IMG_8982.JPEG"
+    ],
+    "pageUrl": "/product/ab684"
+  },
+  {
+    "article": "AB323",
+    "category": "jumpsuits",
+    "name": "Fabric: suit crepe diagonal",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "red",
+      "pink",
+      "blue",
+      "emerald"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMG_5217.JPEG",
+      "/assets/img/uploads/IMG_5206.JPEG",
+      "/assets/img/uploads/IMG_5205.JPEG",
+      "/assets/img/uploads/IMG_5210.JPEG",
+      "/assets/img/uploads/IMG_7184.JPG",
+      "/assets/img/uploads/IMG_7183.JPG",
+      "/assets/img/uploads/IMG_5201.JPEG"
+    ],
+    "pageUrl": "/product/ab323"
+  },
+  {
+    "article": "AB681",
+    "category": "suits",
+    "name": "Corset — Fabric: dense Mango sati.  Pants — Fabric: suiting diagonal crepe",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/IMAGE 2026-06-03 173806.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 173808.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 173817.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 173818.jpg",
+      "/assets/img/uploads/IMAGE 2026-06-03 173825.jpg"
+    ],
+    "pageUrl": "/product/ab681"
   }
 ];
 

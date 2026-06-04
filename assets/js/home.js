@@ -8,7 +8,8 @@
 
 window.ALINAS_BRAND_HOME = {
   "hero": {
-    "image": "assets/img/hero-photo.jpg",
+    "image": "/assets/img/uploads/IMG_9778.JPEG",
+    "mobileImage": "",
     "imagePosition": "center 22%",
     "overtitle": "Ukrainian eveningwear label",
     "title": "Occasionwear for moments that matter",
@@ -19,19 +20,19 @@ window.ALINAS_BRAND_HOME = {
   },
   "categories": {
     "dresses": {
-      "image": "assets/img/products/ab-2601/ab-2601-2.jpg",
+      "image": "/assets/img/uploads/IMG_9707.JPEG",
       "title": "Dresses",
       "subtitle": "Evening gowns and occasion dresses",
       "url": "catalog-dresses.html"
     },
     "suits": {
-      "image": "assets/img/hero-photo.jpg",
+      "image": "/assets/img/uploads/IMG_9683.JPEG",
       "title": "Suits",
       "subtitle": "Tailored sets for receptions",
       "url": "catalog-suits.html"
     },
     "jumpsuits": {
-      "image": "assets/img/editorial/home-occasion.jpg",
+      "image": "/assets/img/uploads/IMG_9018.JPEG",
       "title": "Jumpsuits",
       "subtitle": "Modern one-piece silhouettes",
       "url": "catalog-jumpsuits.html"
