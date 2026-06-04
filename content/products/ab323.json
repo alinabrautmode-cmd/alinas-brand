@@ -1,0 +1,33 @@
+{
+  "article": "AB323",
+  "category": "jumpsuits",
+  "name": "Fabric: suit crepe diagonal",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "red",
+    "pink",
+    "blue",
+    "emerald"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/IMG_5217.JPEG",
+    "/assets/img/uploads/IMG_5206.JPEG",
+    "/assets/img/uploads/IMG_5205.JPEG",
+    "/assets/img/uploads/IMG_5210.JPEG",
+    "/assets/img/uploads/IMG_7184.JPG",
+    "/assets/img/uploads/IMG_7183.JPG",
+    "/assets/img/uploads/IMG_5201.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 1
+}
