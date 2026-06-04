@@ -457,7 +457,10 @@ function buildProducts() {
 
   const categories = fs.existsSync(categoriesPath) ? readJson(categoriesPath) : {};
 
-  const productsForBrowser = products.map(({ published, sortOrder, productFile, productSlug, ...product }) => product);
+  const productsForBrowser = products.map(({ published, sortOrder, productFile, productSlug, ...product }) => ({
+    ...product,
+    images: product.images.map(rootAssetPath)
+  }));
 
   const output = `/* ============================================================
    ALINA'S BRAND — Products data source

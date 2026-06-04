@@ -18,12 +18,12 @@
   ],
   "availability": "Made to order",
   "images": [
-    "assets/img/uploads/dresses/IMG_9139.JPEG",
-    "assets/img/uploads/dresses/IMG_9193.JPEG",
-    "assets/img/uploads/dresses/IMG_9016.JPEG",
-    "assets/img/uploads/dresses/IMG_9090.JPEG",
-    "assets/img/uploads/dresses/IMG_9207.JPEG",
-    "assets/img/uploads/dresses/IMG_9094.JPEG"
+    "/assets/img/uploads/dresses/IMG_9139.JPEG",
+    "/assets/img/uploads/dresses/IMG_9193.JPEG",
+    "/assets/img/uploads/dresses/IMG_9016.JPEG",
+    "/assets/img/uploads/dresses/IMG_9090.JPEG",
+    "/assets/img/uploads/dresses/IMG_9207.JPEG",
+    "/assets/img/uploads/dresses/IMG_9094.JPEG"
   ],
   "published": true,
   "sortOrder": 12

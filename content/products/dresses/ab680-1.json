@@ -15,9 +15,9 @@
   ],
   "availability": "Made to order",
   "images": [
-    "assets/img/uploads/dresses/IMG_9056.JPEG",
-    "assets/img/uploads/dresses/IMG_9141.JPEG",
-    "assets/img/uploads/dresses/IMG_9071.JPEG"
+    "/assets/img/uploads/dresses/IMG_9056.JPEG",
+    "/assets/img/uploads/dresses/IMG_9141.JPEG",
+    "/assets/img/uploads/dresses/IMG_9071.JPEG"
   ],
   "published": true,
   "sortOrder": 14

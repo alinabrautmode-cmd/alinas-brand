@@ -336,6 +336,87 @@ window.ALINAS_BRAND_PRODUCTS = [
     "pageUrl": "/product/ab684"
   },
   {
+    "article": "AB685",
+    "category": "dresses",
+    "name": "Fabric: premium diagonal suit crepe",
+    "tagline": "",
+    "description": "Length: 82 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "burgundy"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_9139.JPEG",
+      "/assets/img/uploads/dresses/IMG_9193.JPEG",
+      "/assets/img/uploads/dresses/IMG_9016.JPEG",
+      "/assets/img/uploads/dresses/IMG_9090.JPEG",
+      "/assets/img/uploads/dresses/IMG_9207.JPEG",
+      "/assets/img/uploads/dresses/IMG_9094.JPEG"
+    ],
+    "pageUrl": "/product/ab685"
+  },
+  {
+    "article": "AB682",
+    "category": "dresses",
+    "name": "Fabric: premium diagonal suit crepe combined with high-quality guipure lace",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "blue",
+      "burgundy"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_9012.JPEG",
+      "/assets/img/uploads/dresses/IMG_9184.JPEG",
+      "/assets/img/uploads/dresses/IMG_9182.JPEG",
+      "/assets/img/uploads/dresses/IMG_9023.JPEG",
+      "/assets/img/uploads/dresses/IMG_9163.JPEG",
+      "/assets/img/uploads/dresses/IMG_9188.JPEG"
+    ],
+    "pageUrl": "/product/ab682"
+  },
+  {
+    "article": "AB680/1",
+    "category": "dresses",
+    "name": "Fabric: premium diagonal suit crepe and dense high-quality crystal satin.",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_9056.JPEG",
+      "/assets/img/uploads/dresses/IMG_9141.JPEG",
+      "/assets/img/uploads/dresses/IMG_9071.JPEG"
+    ],
+    "pageUrl": "/product/ab680-1"
+  },
+  {
     "article": "AB323",
     "category": "jumpsuits",
     "name": "Fabric: suit crepe diagonal",
