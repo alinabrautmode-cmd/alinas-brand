@@ -1,0 +1,34 @@
+{
+  "article": "AB678",
+  "category": "dresses",
+  "name": "Fabric: premium dense mango satin.",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "blue",
+    "pink",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_5379.JPEG",
+    "/assets/img/uploads/dresses/IMG_5450.JPEG",
+    "/assets/img/uploads/dresses/IMG_5374.JPEG",
+    "/assets/img/uploads/dresses/IMG_5619.JPEG",
+    "/assets/img/uploads/dresses/IMG_5546.JPEG",
+    "/assets/img/uploads/dresses/IMG_5308.JPEG",
+    "/assets/img/uploads/dresses/IMG_5670.JPEG",
+    "/assets/img/uploads/dresses/IMG_5465.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 15
+}
