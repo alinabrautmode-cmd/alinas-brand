@@ -1,0 +1,26 @@
+{
+  "article": "AB618",
+  "category": "dresses",
+  "name": "Fabric: premium diagonal suit crepe",
+  "tagline": "",
+  "description": "Length: 115 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "creme"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1297.JPEG",
+    "/assets/img/uploads/dresses/IMG_1346.JPEG",
+    "/assets/img/uploads/dresses/IMG_1332.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 21
+}
