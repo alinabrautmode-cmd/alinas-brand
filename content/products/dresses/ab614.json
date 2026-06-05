@@ -1,0 +1,30 @@
+{
+  "article": "AB614",
+  "category": "dresses",
+  "name": "Fabric: premium dense double-sided satin",
+  "tagline": "",
+  "description": "Length: 150 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "olive",
+    "creme",
+    "light pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_5660.JPEG",
+    "/assets/img/uploads/dresses/IMG_5565.JPEG",
+    "/assets/img/uploads/dresses/IMG_5646.JPEG",
+    "/assets/img/uploads/dresses/IMG_5539.JPEG",
+    "/assets/img/uploads/dresses/IMG_5568.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 22
+}
