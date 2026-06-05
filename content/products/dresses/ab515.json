@@ -1,0 +1,28 @@
+{
+  "article": "AB515",
+  "category": "dresses",
+  "name": "Fabric: premium dense mango satin",
+  "tagline": "",
+  "description": "Length: 155/158 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "emerald",
+    "blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_0764.JPG",
+    "/assets/img/uploads/dresses/IMG_0760.JPG",
+    "/assets/img/uploads/dresses/IMG_0755.JPG",
+    "/assets/img/uploads/dresses/IMG_0752.JPG"
+  ],
+  "published": true,
+  "sortOrder": 17
+}
