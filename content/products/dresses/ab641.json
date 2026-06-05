@@ -1,0 +1,27 @@
+{
+  "article": "AB641",
+  "category": "dresses",
+  "name": "Fabric: premium dense satin with a Windy chiffon insert.",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_5151.JPEG",
+    "/assets/img/uploads/dresses/IMG_5166.JPEG",
+    "/assets/img/uploads/dresses/IMG_5085.JPEG",
+    "/assets/img/uploads/dresses/IMG_5066.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 18
+}
