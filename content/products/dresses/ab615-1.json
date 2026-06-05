@@ -1,0 +1,26 @@
+{
+  "article": "AB615/1",
+  "category": "dresses",
+  "name": "Fabric: premium dense mango satin",
+  "tagline": "",
+  "description": "Length: Back length: 52 cm Center front length: 60 cm Side seam length: 48 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1325.JPEG",
+    "/assets/img/uploads/dresses/IMG_1320.JPEG",
+    "/assets/img/uploads/dresses/IMG_1302.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 20
+}
