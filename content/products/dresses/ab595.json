@@ -1,0 +1,30 @@
+{
+  "article": "AB595",
+  "category": "dresses",
+  "name": "Fabric: premium diagonal suit crepe",
+  "tagline": "",
+  "description": "Total length: 156 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "olive",
+    "red",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_3284.JPEG",
+    "/assets/img/uploads/dresses/IMG_3156.JPEG",
+    "/assets/img/uploads/dresses/IMG_3204.JPEG",
+    "/assets/img/uploads/dresses/IMG_3163.JPEG",
+    "/assets/img/uploads/dresses/IMG_3149.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 19
+}
