@@ -1,0 +1,32 @@
+{
+  "article": "AB626",
+  "category": "dresses",
+  "name": "Fabric: premium dense satin.",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "mocha",
+    "light pink",
+    "chocolate",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_3559.JPEG",
+    "/assets/img/uploads/dresses/IMG_3519.JPEG",
+    "/assets/img/uploads/dresses/IMG_3535.JPEG",
+    "/assets/img/uploads/dresses/IMG_0007.JPG",
+    "/assets/img/uploads/dresses/IMG_3467.JPEG",
+    "/assets/img/uploads/dresses/IMG_3500.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 16
+}
