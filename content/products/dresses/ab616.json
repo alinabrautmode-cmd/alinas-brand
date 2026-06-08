@@ -1,0 +1,29 @@
+{
+  "article": "AB616",
+  "category": "dresses",
+  "name": "Fabric: premium dense mango satin",
+  "tagline": "",
+  "description": "Length: 152 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "mocha",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1447.JPEG",
+    "/assets/img/uploads/dresses/IMG_1224.JPEG",
+    "/assets/img/uploads/dresses/IMG_1472.JPEG",
+    "/assets/img/uploads/dresses/IMG_1503.JPEG",
+    "/assets/img/uploads/dresses/IMG_1379.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 24
+}
