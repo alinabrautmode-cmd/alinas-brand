@@ -1,0 +1,28 @@
+{
+  "article": "AB689",
+  "category": "dresses",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "Skirt length: 117 cm + 3 cm waistband",
+  "colors": [
+    "ivory",
+    "black",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/suits/IMG_3489.JPEG",
+    "/assets/img/uploads/suits/IMG_3508.JPEG",
+    "/assets/img/uploads/suits/IMG_3596.JPEG",
+    "/assets/img/uploads/suits/IMG_9136.JPEG",
+    "/assets/img/uploads/suits/IMG_3524.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 5
+}
