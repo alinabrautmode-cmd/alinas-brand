@@ -1,0 +1,31 @@
+{
+  "article": "AB661",
+  "category": "dresses",
+  "name": "Fabric: premium suiting diagonal crepe, dense high-quality lining",
+  "tagline": "",
+  "description": "Pants length: 121 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "blue",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/suits/IMG_5335.JPEG",
+    "/assets/img/uploads/suits/IMG_5356.JPEG",
+    "/assets/img/uploads/suits/IMG_5437.JPEG",
+    "/assets/img/uploads/suits/IMG_5472.JPEG",
+    "/assets/img/uploads/suits/IMG_5451.JPEG",
+    "/assets/img/uploads/suits/IMG_5350.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 4
+}
