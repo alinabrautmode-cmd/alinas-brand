@@ -1,0 +1,33 @@
+{
+  "article": "AB627",
+  "category": "dresses",
+  "name": "Fabric: premium suiting diagonal crepe, inserts made of dense mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "smaragd",
+    "red",
+    "light pink",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_3499.JPEG",
+    "/assets/img/uploads/dresses/IMG_3539.JPEG",
+    "/assets/img/uploads/dresses/IMG_3394.JPEG",
+    "/assets/img/uploads/dresses/IMG_3388.JPEG",
+    "/assets/img/uploads/dresses/IMG_3437.JPEG",
+    "/assets/img/uploads/dresses/IMG_3498.JPEG",
+    "/assets/img/uploads/dresses/IMG_1107.JPG"
+  ],
+  "published": true,
+  "sortOrder": 25
+}
