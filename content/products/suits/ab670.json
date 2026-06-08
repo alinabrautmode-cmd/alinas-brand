@@ -1,0 +1,29 @@
+{
+  "article": "AB670",
+  "category": "dresses",
+  "name": "Detachable bow",
+  "tagline": "",
+  "description": "Pants length: 90–91 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "red",
+    "chocolate"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/suits/IMG_5691.JPG",
+    "/assets/img/uploads/suits/IMG_5690.JPG",
+    "/assets/img/uploads/suits/IMG_5687.JPG",
+    "/assets/img/uploads/suits/IMG_5686.JPG",
+    "/assets/img/uploads/suits/IMAGE 2026-06-08 212127.jpg"
+  ],
+  "published": true,
+  "sortOrder": 3
+}
