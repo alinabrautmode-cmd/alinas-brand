@@ -1,0 +1,30 @@
+{
+  "article": "AB615",
+  "category": "dresses",
+  "name": "Fabric: premium mango satin, skirt made of soft mesh",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_6701.JPEG",
+    "/assets/img/uploads/dresses/IMG_6686.JPEG",
+    "/assets/img/uploads/dresses/IMG_6772.JPEG",
+    "/assets/img/uploads/dresses/IMG_6848.JPEG",
+    "/assets/img/uploads/dresses/IMG_6810.JPEG",
+    "/assets/img/uploads/dresses/IMG_6673.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 23
+}
