@@ -1,0 +1,33 @@
+{
+  "article": "AB688",
+  "category": "dresses",
+  "name": "Fabric: premium suiting diagonal crepe and Windy chiffon",
+  "tagline": "",
+  "description": "Skirt length: 115 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "burgundy",
+    "red",
+    "pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/suits/IMG_0552.JPEG",
+    "/assets/img/uploads/suits/IMG_0513.JPEG",
+    "/assets/img/uploads/suits/IMG_0384.JPEG",
+    "/assets/img/uploads/suits/IMG_0380.JPEG",
+    "/assets/img/uploads/suits/IMG_0451.JPEG",
+    "/assets/img/uploads/suits/IMG_0527.JPEG",
+    "/assets/img/uploads/suits/IMG_0547.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 2
+}
