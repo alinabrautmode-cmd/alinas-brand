@@ -1,0 +1,32 @@
+{
+  "article": "AB603",
+  "name": "Fabric: main dress — premium suiting diagonal crepe; skirt and scarf — Windy chiffon",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light blue",
+    "chocolate",
+    "light pink",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_0983.JPEG",
+    "/assets/img/uploads/dresses/IMG_1006.JPEG",
+    "/assets/img/uploads/dresses/IMG_1054.JPEG",
+    "/assets/img/uploads/dresses/IMG_1058.JPEG",
+    "/assets/img/uploads/dresses/IMG_1074.JPEG",
+    "/assets/img/uploads/dresses/IMG_1084.JPEG",
+    "/assets/img/uploads/dresses/IMG_1113.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 27
+}
