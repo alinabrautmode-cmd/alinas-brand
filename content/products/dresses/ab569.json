@@ -1,0 +1,29 @@
+{
+  "article": "AB569",
+  "name": "Fabric: thick suiting satin fabric",
+  "tagline": "",
+  "description": "Total length: 146 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "creme",
+    "light chocolate"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_3380.JPEG",
+    "/assets/img/uploads/dresses/IMG_3393.JPEG",
+    "/assets/img/uploads/dresses/IMG_3530.JPEG",
+    "/assets/img/uploads/dresses/IMG_3537.JPEG",
+    "/assets/img/uploads/dresses/IMG_3550.JPEG",
+    "/assets/img/uploads/dresses/IMG_3591.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 42
+}
