@@ -1,0 +1,31 @@
+{
+  "article": "AB518/2",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "Length along the back: 123 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "creme",
+    "light blue",
+    "light pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_2443.JPEG",
+    "/assets/img/uploads/dresses/IMG_2388.JPEG",
+    "/assets/img/uploads/dresses/IMG_2374.JPEG",
+    "/assets/img/uploads/dresses/IMG_2453.JPEG",
+    "/assets/img/uploads/dresses/IMG_2440.JPEG",
+    "/assets/img/uploads/dresses/IMG_2423.JPEG",
+    "/assets/img/uploads/dresses/IMG_2351.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 31
+}
