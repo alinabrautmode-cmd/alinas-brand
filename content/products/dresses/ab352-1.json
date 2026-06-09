@@ -1,0 +1,32 @@
+{
+  "article": "AB352/1",
+  "name": "Fabric: premium suiting crepe diagonal",
+  "tagline": "",
+  "description": "Product length: 120 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "yellow",
+    "light blue",
+    "red",
+    "peach"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1116.JPEG",
+    "/assets/img/uploads/dresses/IMG_1106.JPEG",
+    "/assets/img/uploads/dresses/IMG_1126.JPEG",
+    "/assets/img/uploads/dresses/IMG_1105.JPEG",
+    "/assets/img/uploads/dresses/IMG_0986.JPEG",
+    "/assets/img/uploads/dresses/IMG_5167.JPEG",
+    "/assets/img/uploads/dresses/IMG_1098.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 41
+}
