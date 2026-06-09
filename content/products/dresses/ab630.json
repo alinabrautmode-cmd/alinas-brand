@@ -1,0 +1,26 @@
+{
+  "article": "AB630",
+  "name": "Fabric: premium dense mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light blue",
+    "mocha"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_4698.JPG",
+    "/assets/img/uploads/dresses/IMG_4695.JPG",
+    "/assets/img/uploads/dresses/IMG_4690.JPG"
+  ],
+  "published": true,
+  "sortOrder": 26
+}
