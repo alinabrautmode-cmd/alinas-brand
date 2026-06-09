@@ -1,0 +1,29 @@
+{
+  "article": "AB623",
+  "name": "Fabric: dense suiting satin fabric Paris",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue",
+    "mocha"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_4128.JPEG",
+    "/assets/img/uploads/dresses/IMG_4100.JPEG",
+    "/assets/img/uploads/dresses/IMG_4055.JPEG",
+    "/assets/img/uploads/dresses/IMG_4130.JPEG",
+    "/assets/img/uploads/dresses/IMG_4126.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 28
+}
