@@ -1,0 +1,31 @@
+{
+  "article": "AB601",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "Length: 125 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "yellow",
+    "light blue",
+    "peach"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_4441.JPG",
+    "/assets/img/uploads/dresses/IMG_4438.JPG",
+    "/assets/img/uploads/dresses/IMG_4451.JPG",
+    "/assets/img/uploads/dresses/IMG_4439.JPG",
+    "/assets/img/uploads/dresses/IMG_4435.JPG",
+    "/assets/img/uploads/dresses/IMG_4440.JPG"
+  ],
+  "published": true,
+  "sortOrder": 37
+}
