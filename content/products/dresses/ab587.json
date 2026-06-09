@@ -1,0 +1,32 @@
+{
+  "article": "AB587",
+  "name": "Fabric: premium dense satin",
+  "tagline": "",
+  "description": "Total length: 125 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "beige",
+    "lavender",
+    "blue",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9013.JPEG",
+    "/assets/img/uploads/dresses/IMG_9017.JPEG",
+    "/assets/img/uploads/dresses/IMG_9010.JPEG",
+    "/assets/img/uploads/dresses/IMG_9007.JPEG",
+    "/assets/img/uploads/dresses/IMG_9003.JPEG",
+    "/assets/img/uploads/dresses/IMG_9022.JPEG",
+    "/assets/img/uploads/dresses/IMG_9001.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 40
+}
