@@ -1,0 +1,30 @@
+{
+  "article": "AB609",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "Length: 82 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "red",
+    "yellow",
+    "light pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_4636.JPG",
+    "/assets/img/uploads/dresses/IMG_4635.JPG",
+    "/assets/img/uploads/dresses/IMG_4642.JPG",
+    "/assets/img/uploads/dresses/IMG_4644.JPG",
+    "/assets/img/uploads/dresses/IMG_4639.JPG",
+    "/assets/img/uploads/dresses/IMG_4645.JPG"
+  ],
+  "published": true,
+  "sortOrder": 34
+}
