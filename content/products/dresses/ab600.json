@@ -1,0 +1,32 @@
+{
+  "article": "AB600",
+  "name": "Fabric: premium dense satin",
+  "tagline": "",
+  "description": "Total length: 132 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "creme",
+    "lavender",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_8699.JPEG",
+    "/assets/img/uploads/dresses/IMG_8613.JPEG",
+    "/assets/img/uploads/dresses/IMG_8603.JPEG",
+    "/assets/img/uploads/dresses/IMG_8742.JPEG",
+    "/assets/img/uploads/dresses/IMG_8631.JPEG",
+    "/assets/img/uploads/dresses/IMG_7123.JPG",
+    "/assets/img/uploads/dresses/IMG_7117.JPG"
+  ],
+  "published": true,
+  "sortOrder": 35
+}
