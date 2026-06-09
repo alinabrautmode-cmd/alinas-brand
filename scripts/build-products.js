@@ -81,9 +81,18 @@ function listText(value) {
   return Array.isArray(value) && value.length ? value.join(', ') : '—';
 }
 
+function categoryFromProductPath(fileName) {
+  const parts = String(fileName || '').split(/[\\/]+/).filter(Boolean);
+  return parts.length > 1 ? parts[0].trim().toLowerCase() : '';
+}
+
 function normalizeProduct(raw, fileName) {
   const article = String(raw.article || '').trim().toUpperCase();
-  const category = String(raw.category || '').trim().toLowerCase();
+
+  // Source of truth for category is the folder where the product JSON is stored:
+  // content/products/dresses, content/products/suits, content/products/jumpsuits.
+  // This prevents CMS hidden-field defaults from putting suits/jumpsuits into Dresses.
+  const category = categoryFromProductPath(fileName) || String(raw.category || '').trim().toLowerCase();
 
   if (!article) {
     throw new Error(`${fileName}: product article is required`);

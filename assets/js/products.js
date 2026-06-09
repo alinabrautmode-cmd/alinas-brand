@@ -417,6 +417,320 @@ window.ALINAS_BRAND_PRODUCTS = [
     "pageUrl": "/product/ab680-1"
   },
   {
+    "article": "AB678",
+    "category": "dresses",
+    "name": "Fabric: premium dense mango satin.",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "blue",
+      "pink",
+      "light blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_5379.JPEG",
+      "/assets/img/uploads/dresses/IMG_5450.JPEG",
+      "/assets/img/uploads/dresses/IMG_5374.JPEG",
+      "/assets/img/uploads/dresses/IMG_5619.JPEG",
+      "/assets/img/uploads/dresses/IMG_5546.JPEG",
+      "/assets/img/uploads/dresses/IMG_5308.JPEG",
+      "/assets/img/uploads/dresses/IMG_5670.JPEG",
+      "/assets/img/uploads/dresses/IMG_5465.JPEG"
+    ],
+    "pageUrl": "/product/ab678"
+  },
+  {
+    "article": "AB626",
+    "category": "dresses",
+    "name": "Fabric: premium dense satin.",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "mocha",
+      "light pink",
+      "chocolate",
+      "light blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_3559.JPEG",
+      "/assets/img/uploads/dresses/IMG_3519.JPEG",
+      "/assets/img/uploads/dresses/IMG_3535.JPEG",
+      "/assets/img/uploads/dresses/IMG_0007.JPG",
+      "/assets/img/uploads/dresses/IMG_3467.JPEG",
+      "/assets/img/uploads/dresses/IMG_3500.JPEG"
+    ],
+    "pageUrl": "/product/ab626"
+  },
+  {
+    "article": "AB515",
+    "category": "dresses",
+    "name": "Fabric: premium dense mango satin",
+    "tagline": "",
+    "description": "Length: 155/158 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "emerald",
+      "blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_0764.JPG",
+      "/assets/img/uploads/dresses/IMG_0760.JPG",
+      "/assets/img/uploads/dresses/IMG_0755.JPG",
+      "/assets/img/uploads/dresses/IMG_0752.JPG"
+    ],
+    "pageUrl": "/product/ab515"
+  },
+  {
+    "article": "AB641",
+    "category": "dresses",
+    "name": "Fabric: premium dense satin with a Windy chiffon insert.",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_5151.JPEG",
+      "/assets/img/uploads/dresses/IMG_5166.JPEG",
+      "/assets/img/uploads/dresses/IMG_5085.JPEG",
+      "/assets/img/uploads/dresses/IMG_5066.JPEG"
+    ],
+    "pageUrl": "/product/ab641"
+  },
+  {
+    "article": "AB595",
+    "category": "dresses",
+    "name": "Fabric: premium diagonal suit crepe",
+    "tagline": "",
+    "description": "Total length: 156 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "olive",
+      "red",
+      "yellow"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_3284.JPEG",
+      "/assets/img/uploads/dresses/IMG_3156.JPEG",
+      "/assets/img/uploads/dresses/IMG_3204.JPEG",
+      "/assets/img/uploads/dresses/IMG_3163.JPEG",
+      "/assets/img/uploads/dresses/IMG_3149.JPEG"
+    ],
+    "pageUrl": "/product/ab595"
+  },
+  {
+    "article": "AB615/1",
+    "category": "dresses",
+    "name": "Fabric: premium dense mango satin",
+    "tagline": "",
+    "description": "Length: Back length: 52 cm Center front length: 60 cm Side seam length: 48 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "light pink"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_1325.JPEG",
+      "/assets/img/uploads/dresses/IMG_1320.JPEG",
+      "/assets/img/uploads/dresses/IMG_1302.JPEG"
+    ],
+    "pageUrl": "/product/ab615-1"
+  },
+  {
+    "article": "AB618",
+    "category": "dresses",
+    "name": "Fabric: premium diagonal suit crepe",
+    "tagline": "",
+    "description": "Length: 115 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "creme"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_1297.JPEG",
+      "/assets/img/uploads/dresses/IMG_1346.JPEG",
+      "/assets/img/uploads/dresses/IMG_1332.JPEG"
+    ],
+    "pageUrl": "/product/ab618"
+  },
+  {
+    "article": "AB614",
+    "category": "dresses",
+    "name": "Fabric: premium dense double-sided satin",
+    "tagline": "",
+    "description": "Length: 150 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "olive",
+      "creme",
+      "light pink"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_5660.JPEG",
+      "/assets/img/uploads/dresses/IMG_5565.JPEG",
+      "/assets/img/uploads/dresses/IMG_5646.JPEG",
+      "/assets/img/uploads/dresses/IMG_5539.JPEG",
+      "/assets/img/uploads/dresses/IMG_5568.JPEG"
+    ],
+    "pageUrl": "/product/ab614"
+  },
+  {
+    "article": "AB615",
+    "category": "dresses",
+    "name": "Fabric: premium mango satin, skirt made of soft mesh",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "light pink",
+      "light blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_6701.JPEG",
+      "/assets/img/uploads/dresses/IMG_6686.JPEG",
+      "/assets/img/uploads/dresses/IMG_6772.JPEG",
+      "/assets/img/uploads/dresses/IMG_6848.JPEG",
+      "/assets/img/uploads/dresses/IMG_6810.JPEG",
+      "/assets/img/uploads/dresses/IMG_6673.JPEG"
+    ],
+    "pageUrl": "/product/ab615"
+  },
+  {
+    "article": "AB616",
+    "category": "dresses",
+    "name": "Fabric: premium dense mango satin",
+    "tagline": "",
+    "description": "Length: 152 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "mocha",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_1447.JPEG",
+      "/assets/img/uploads/dresses/IMG_1224.JPEG",
+      "/assets/img/uploads/dresses/IMG_1472.JPEG",
+      "/assets/img/uploads/dresses/IMG_1503.JPEG",
+      "/assets/img/uploads/dresses/IMG_1379.JPEG"
+    ],
+    "pageUrl": "/product/ab616"
+  },
+  {
+    "article": "AB627",
+    "category": "dresses",
+    "name": "Fabric: premium suiting diagonal crepe, inserts made of dense mango satin",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black",
+      "smaragd",
+      "red",
+      "light pink",
+      "light blue"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/dresses/IMG_3499.JPEG",
+      "/assets/img/uploads/dresses/IMG_3539.JPEG",
+      "/assets/img/uploads/dresses/IMG_3394.JPEG",
+      "/assets/img/uploads/dresses/IMG_3388.JPEG",
+      "/assets/img/uploads/dresses/IMG_3437.JPEG",
+      "/assets/img/uploads/dresses/IMG_3498.JPEG",
+      "/assets/img/uploads/dresses/IMG_1107.JPG"
+    ],
+    "pageUrl": "/product/ab627"
+  },
+  {
     "article": "AB323",
     "category": "jumpsuits",
     "name": "Fabric: suit crepe diagonal",
@@ -473,6 +787,177 @@ window.ALINAS_BRAND_PRODUCTS = [
       "/assets/img/uploads/IMAGE 2026-06-03 173825.jpg"
     ],
     "pageUrl": "/product/ab681"
+  },
+  {
+    "article": "AB688",
+    "category": "suits",
+    "name": "Fabric: premium suiting diagonal crepe and Windy chiffon",
+    "tagline": "",
+    "description": "Skirt length: 115 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "burgundy",
+      "red",
+      "pink"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_0552.JPEG",
+      "/assets/img/uploads/suits/IMG_0513.JPEG",
+      "/assets/img/uploads/suits/IMG_0384.JPEG",
+      "/assets/img/uploads/suits/IMG_0380.JPEG",
+      "/assets/img/uploads/suits/IMG_0451.JPEG",
+      "/assets/img/uploads/suits/IMG_0527.JPEG",
+      "/assets/img/uploads/suits/IMG_0547.JPEG"
+    ],
+    "pageUrl": "/product/ab688"
+  },
+  {
+    "article": "AB670",
+    "category": "suits",
+    "name": "Detachable bow",
+    "tagline": "",
+    "description": "Pants length: 90–91 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "red",
+      "chocolate"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_5691.JPG",
+      "/assets/img/uploads/suits/IMG_5690.JPG",
+      "/assets/img/uploads/suits/IMG_5687.JPG",
+      "/assets/img/uploads/suits/IMG_5686.JPG",
+      "/assets/img/uploads/suits/IMAGE 2026-06-08 212127.jpg"
+    ],
+    "pageUrl": "/product/ab670"
+  },
+  {
+    "article": "AB661",
+    "category": "suits",
+    "name": "Fabric: premium suiting diagonal crepe, dense high-quality lining",
+    "tagline": "",
+    "description": "Pants length: 121 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "chocolate",
+      "blue",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_5335.JPEG",
+      "/assets/img/uploads/suits/IMG_5356.JPEG",
+      "/assets/img/uploads/suits/IMG_5437.JPEG",
+      "/assets/img/uploads/suits/IMG_5472.JPEG",
+      "/assets/img/uploads/suits/IMG_5451.JPEG",
+      "/assets/img/uploads/suits/IMG_5350.JPEG"
+    ],
+    "pageUrl": "/product/ab661"
+  },
+  {
+    "article": "AB689",
+    "category": "suits",
+    "name": "Fabric: premium suiting diagonal crepe",
+    "tagline": "",
+    "description": "Skirt length: 117 cm + 3 cm waistband",
+    "colors": [
+      "ivory",
+      "black",
+      "red"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_3489.JPEG",
+      "/assets/img/uploads/suits/IMG_3508.JPEG",
+      "/assets/img/uploads/suits/IMG_3596.JPEG",
+      "/assets/img/uploads/suits/IMG_9136.JPEG",
+      "/assets/img/uploads/suits/IMG_3524.JPEG"
+    ],
+    "pageUrl": "/product/ab689"
+  },
+  {
+    "article": "AB683",
+    "category": "suits",
+    "name": "Fabric: premium suiting diagonal crepe",
+    "tagline": "",
+    "description": "Length along the back: 137 cm",
+    "colors": [
+      "ivory",
+      "black",
+      "smaragd",
+      "burgundy"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_7549.JPEG",
+      "/assets/img/uploads/suits/IMG_7678.JPEG",
+      "/assets/img/uploads/suits/IMG_7687.JPEG",
+      "/assets/img/uploads/suits/IMG_7622.JPEG",
+      "/assets/img/uploads/suits/IMG_7593.JPEG",
+      "/assets/img/uploads/suits/IMG_7580.JPEG"
+    ],
+    "pageUrl": "/product/ab683"
+  },
+  {
+    "article": "AB636",
+    "category": "suits",
+    "name": "Fabric: premium suiting diagonal crepe",
+    "tagline": "",
+    "description": "",
+    "colors": [
+      "ivory",
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "availability": "Made to order",
+    "images": [
+      "/assets/img/uploads/suits/IMG_6751.JPEG",
+      "/assets/img/uploads/suits/IMG_6772.JPEG",
+      "/assets/img/uploads/suits/IMG_6765.JPEG",
+      "/assets/img/uploads/suits/IMG_6689.JPEG"
+    ],
+    "pageUrl": "/product/ab636"
   }
 ];
 

@@ -82,10 +82,6 @@ collections:
         name: article
         widget: string
         hint: "Наприклад: AB701. Не змінюй артикул старого товару, якщо він вже використовується на сайті."
-      - label: Категорія
-        name: category
-        widget: hidden
-        default: dresses
       - label: Назва
         name: name
         widget: string
