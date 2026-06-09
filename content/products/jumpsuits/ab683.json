@@ -1,0 +1,29 @@
+{
+  "article": "AB683",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "chocolate",
+    "emerald",
+    "burgundy"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/jumpsuits/IMG_9018.JPEG",
+    "/assets/img/uploads/jumpsuits/IMG_9042.JPEG",
+    "/assets/img/uploads/jumpsuits/IMG_9117.JPEG",
+    "/assets/img/uploads/jumpsuits/IMG_9103.JPEG",
+    "/assets/img/uploads/jumpsuits/IMAGE 2026-06-09 141731.jpg"
+  ],
+  "published": true,
+  "sortOrder": 2
+}
