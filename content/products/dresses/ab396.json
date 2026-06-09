@@ -1,0 +1,28 @@
+{
+  "article": "AB396",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "Corset is reinforced, dense, and holds its shape.",
+  "colors": [
+    "ivory",
+    "black",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_6582.JPEG",
+    "/assets/img/uploads/dresses/IMG_6637.JPEG",
+    "/assets/img/uploads/dresses/IMG_6585.JPEG",
+    "/assets/img/uploads/dresses/IMG_6526.JPEG",
+    "/assets/img/uploads/dresses/IMG_6534.JPEG",
+    "/assets/img/uploads/dresses/IMG_6523.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 38
+}
