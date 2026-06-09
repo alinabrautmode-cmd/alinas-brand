@@ -10,7 +10,12 @@
     "red",
     "light pink"
   ],
-  "sizes": [],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
   "availability": "Made to order",
   "images": [
     "/assets/img/uploads/suits/IMG_0981.JPEG",
