@@ -1,0 +1,29 @@
+{
+  "article": "AB739",
+  "name": "Fabric: main dress — premium suiting diagonal crepe; sleeves — Windy chiffon",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "light blau",
+    "light pink",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1001.JPEG",
+    "/assets/img/uploads/dresses/IMG_1025.JPEG",
+    "/assets/img/uploads/dresses/IMG_1067.JPEG",
+    "/assets/img/uploads/dresses/IMG_1020.JPEG",
+    "/assets/img/uploads/dresses/IMG_0982.JPEG",
+    "/assets/img/uploads/dresses/IMG_1043.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 2
+}
