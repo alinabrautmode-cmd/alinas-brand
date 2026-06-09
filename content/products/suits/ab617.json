@@ -1,0 +1,27 @@
+{
+  "article": "AB617",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "cream",
+    "light pink"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/suits/IMG_9850.JPEG",
+    "/assets/img/uploads/suits/IMG_9900.JPEG",
+    "/assets/img/uploads/suits/IMG_9839.JPEG",
+    "/assets/img/uploads/suits/IMG_3094.JPG"
+  ],
+  "published": true,
+  "sortOrder": 8
+}
