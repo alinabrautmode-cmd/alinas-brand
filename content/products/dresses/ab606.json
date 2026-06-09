@@ -1,0 +1,30 @@
+{
+  "article": "AB606",
+  "name": "Fabric: premium suiting diagonal crepe, dense high-quality lining",
+  "tagline": "",
+  "description": "Blazer length: 72 cm\nSleeve length: 63 cm\nPants length: 90–91 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "yellow",
+    "olive",
+    "beige"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_2071.JPEG",
+    "/assets/img/uploads/dresses/IMG_2068.JPEG",
+    "/assets/img/uploads/dresses/IMG_2065.JPEG",
+    "/assets/img/uploads/dresses/IMG_2073.JPEG",
+    "/assets/img/uploads/dresses/IMG_2074.JPEG",
+    "/assets/img/uploads/dresses/IMG_3700.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 37
+}
