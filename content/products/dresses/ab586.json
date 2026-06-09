@@ -1,0 +1,31 @@
+{
+  "article": "AB586",
+  "name": "Fabric: premium dense satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light blue",
+    "creme",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_6594.JPEG",
+    "/assets/img/uploads/dresses/IMG_6629.JPEG",
+    "/assets/img/uploads/dresses/IMG_6510.JPEG",
+    "/assets/img/uploads/dresses/IMG_6497.JPEG",
+    "/assets/img/uploads/dresses/IMG_6537.JPEG",
+    "/assets/img/uploads/dresses/IMG_6611.JPEG",
+    "/assets/img/uploads/dresses/IMG_6558.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 30
+}
