@@ -1,0 +1,28 @@
+{
+  "article": "AB602",
+  "name": "Fabric: premium suiting diagonal crepe",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1050.JPEG",
+    "/assets/img/uploads/dresses/IMG_1012.JPEG",
+    "/assets/img/uploads/dresses/IMG_1019.JPEG",
+    "/assets/img/uploads/dresses/IMG_1110.JPEG",
+    "/assets/img/uploads/dresses/IMG_0989.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 33
+}
