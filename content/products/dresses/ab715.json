@@ -1,0 +1,30 @@
+{
+  "article": "AB715",
+  "name": "Fabric: premium suiting crepe diagonal",
+  "tagline": "",
+  "description": "Length with straps: 130 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blau",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9803.JPEG",
+    "/assets/img/uploads/dresses/IMG_9748.JPEG",
+    "/assets/img/uploads/dresses/IMG_9649.JPEG",
+    "/assets/img/uploads/dresses/IMG_9665.JPEG",
+    "/assets/img/uploads/dresses/IMG_9670.JPEG",
+    "/assets/img/uploads/dresses/IMG_9757.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 2
+}
