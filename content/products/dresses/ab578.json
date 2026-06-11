@@ -1,0 +1,26 @@
+{
+  "article": "AB578",
+  "name": "Fabric: premium suiting crepe diagonal",
+  "tagline": "",
+  "description": "Length: 145/146 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "red"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_3937.JPG",
+    "/assets/img/uploads/dresses/IMG_3932.JPG",
+    "/assets/img/uploads/dresses/IMG_3931.JPG",
+    "/assets/img/uploads/dresses/IMG_3930.JPG"
+  ],
+  "published": true,
+  "sortOrder": 46
+}
