@@ -1,0 +1,28 @@
+{
+  "article": "AB552",
+  "name": "Fabric: premium suiting crepe diagonal",
+  "tagline": "",
+  "description": "Product length: 112 cm",
+  "colors": [
+    "creme",
+    "black",
+    "blau",
+    "burgundy"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_2407.JPEG",
+    "/assets/img/uploads/dresses/IMG_2466.JPEG",
+    "/assets/img/uploads/dresses/IMG_2312.JPEG",
+    "/assets/img/uploads/dresses/IMG_2415.JPEG",
+    "/assets/img/uploads/dresses/IMG_2417.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 47
+}
