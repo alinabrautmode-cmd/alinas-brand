@@ -1541,29 +1541,10 @@ body.nav-open {
   }
 }
 
+```css
 /* ========================================
-   STEP 15 — MOBILE HERO, MOBILE PRODUCT SWIPE & IMAGE POLISH
+   STEP 15 — MOBILE HERO
    ======================================== */
-
-/* Keep product/category photos consistently rendered to reduce desktop shimmer/grain during hover transitions. */
-.catalog-model__frame img,
-.collection-card__image,
-.about__image img,
-.product-gallery__main img,
-.product-thumb img {
-  image-rendering: auto;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  transform: translateZ(0);
-  -webkit-transform: translateZ(0);
-}
-
-.catalog-model__frame:hover img,
-.collection-card:hover .collection-card__image,
-.about__image:hover img {
-  transform: translateZ(0) scale(1.025);
-  -webkit-transform: translateZ(0) scale(1.025);
-}
 
 /* Mobile: show the home hero photo instead of hiding the first screen. */
 @media (max-width: 720px) {
@@ -1583,12 +1564,22 @@ body.nav-open {
 
   .hero--photo::before {
     background:
-      linear-gradient(180deg, rgba(255,255,255,0.58) 0%, rgba(255,255,255,0.46) 34%, rgba(255,255,255,0.86) 100%);
+      linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.58) 0%,
+        rgba(255, 255, 255, 0.46) 34%,
+        rgba(255, 255, 255, 0.86) 100%
+      );
   }
 
   .hero--photo::after {
     background:
-      linear-gradient(180deg, rgba(248,246,243,0.04) 0%, rgba(248,246,243,0.12) 45%, rgba(248,246,243,0.52) 100%);
+      linear-gradient(
+        180deg,
+        rgba(248, 246, 243, 0.04) 0%,
+        rgba(248, 246, 243, 0.12) 45%,
+        rgba(248, 246, 243, 0.52) 100%
+      );
   }
 
   .hero__content--left {
@@ -1630,61 +1621,24 @@ body.nav-open {
   }
 }
 
-/* Mobile catalog: one product photo at a time with horizontal swipe instead of 3 stacked photos. */
-@media (max-width: 720px) {
-  .catalog-model__gallery {
-    display: flex;
-    grid-template-columns: none;
-    gap: 12px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-snap-type: x mandatory;
-    scroll-padding-inline: 0;
-    -webkit-overflow-scrolling: touch;
-    padding-bottom: 10px;
-    overscroll-behavior-x: contain;
-  }
 
-  .catalog-model__gallery::-webkit-scrollbar {
-    display: none;
-  }
+/* ========================================
+   STEP 16 — OPTIONAL MOBILE HERO IMAGE
+   ======================================== */
 
-  .catalog-model__gallery {
-    scrollbar-width: none;
-  }
-
-  .catalog-model__frame {
-    flex: 0 0 100%;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-  }
-
-  .catalog-model__frame:nth-child(n+4) {
-    display: block;
-  }
-
-  .catalog-model__caption {
-    padding-top: 10px;
-  }
-
-  .catalog-model__cta {
-    margin-top: 8px;
-  }
-}
-
-
-/* STEP 16 — Optional separate mobile hero image from CMS */
 @media (max-width: 720px) {
   .hero--photo .hero__bg[data-home-hero-image] {
-    background-image: var(--hero-image-mobile, var(--hero-image-desktop)) !important;
+    background-image:
+      var(--hero-image-mobile, var(--hero-image-desktop)) !important;
     background-position: center top;
   }
 }
 
+
 /* ========================================
-   MOBILE CATALOG — KEEP ORIGINAL PHOTO PROPORTIONS
-   Prevents tall product photos from being cropped/zoomed into a 3:4 frame.
+   MOBILE CATALOG — ORIGINAL PHOTO PROPORTIONS
    ======================================== */
+
 @media (max-width: 720px) {
   .catalog-model__gallery {
     display: block;
@@ -1708,9 +1662,14 @@ body.nav-open {
     object-fit: contain;
     object-position: center top;
     transform: none;
+    -webkit-transform: none;
+    backface-visibility: visible;
+    -webkit-backface-visibility: visible;
   }
 
   .catalog-model__frame:hover img {
     transform: none;
+    -webkit-transform: none;
   }
 }
+```
