@@ -1680,3 +1680,37 @@ body.nav-open {
     background-position: center top;
   }
 }
+
+/* ========================================
+   MOBILE CATALOG — KEEP ORIGINAL PHOTO PROPORTIONS
+   Prevents tall product photos from being cropped/zoomed into a 3:4 frame.
+   ======================================== */
+@media (max-width: 720px) {
+  .catalog-model__gallery {
+    display: block;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+
+  .catalog-model__frame {
+    display: block;
+    width: 100%;
+    aspect-ratio: auto;
+    overflow: hidden;
+    background: var(--color-bg-warm);
+  }
+
+  .catalog-model__frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    object-position: center top;
+    transform: none;
+  }
+
+  .catalog-model__frame:hover img {
+    transform: none;
+  }
+}
