@@ -130,7 +130,7 @@
       eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"'
     ];
 
-    if (canUseCloudflareImages()) {
+    if (isMobile() && canUseCloudflareTransformations()) {
       attrs.push(
         'srcset="' + widths.map(function (width) {
           return escapeAttr(cloudflareImageUrl(src, width)) + ' ' + width + 'w';
