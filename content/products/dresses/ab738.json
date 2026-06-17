@@ -1,0 +1,29 @@
+{
+  "article": "AB738",
+  "name": "Fabric: dense knit fabric",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "cream",
+    "light pink",
+    "light blue",
+    "yellow",
+    "green"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1015.JPEG",
+    "/assets/img/uploads/dresses/IMG_0994.JPEG",
+    "/assets/img/uploads/dresses/IMG_0992.JPEG",
+    "/assets/img/uploads/dresses/IMG_1051.JPEG",
+    "/assets/img/uploads/dresses/IMG_1088.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 7
+}
