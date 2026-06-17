@@ -1,0 +1,31 @@
+{
+  "article": "AB333",
+  "name": "Fabric: royal mango satin",
+  "tagline": "",
+  "description": "Product length: 135 cm\nSleeve length including the cuff: 70 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue",
+    "silver"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_0779.JPG",
+    "/assets/img/uploads/dresses/IMG_0780.JPG",
+    "/assets/img/uploads/dresses/IMG_0785.JPG",
+    "/assets/img/uploads/dresses/IMG_0775.JPG",
+    "/assets/img/uploads/dresses/IMG_0781.JPG",
+    "/assets/img/uploads/dresses/IMG_0786.JPG",
+    "/assets/img/uploads/dresses/IMG_0773.JPG"
+  ],
+  "published": true,
+  "sortOrder": 61
+}
