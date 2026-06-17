@@ -1,0 +1,29 @@
+{
+  "article": "AB727",
+  "name": "Fabric: premium suiting crepe diagonal",
+  "tagline": "",
+  "description": "Length: 124 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue",
+    "yellow"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9651.JPEG",
+    "/assets/img/uploads/dresses/IMG_9738.JPEG",
+    "/assets/img/uploads/dresses/IMG_9623.JPEG",
+    "/assets/img/uploads/dresses/IMG_9749.JPEG",
+    "/assets/img/uploads/dresses/IMG_9689.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 5
+}
