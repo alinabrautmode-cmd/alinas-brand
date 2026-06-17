@@ -1,0 +1,28 @@
+{
+  "article": "AB721",
+  "name": "Fabric: dense mango satin",
+  "tagline": "",
+  "description": "Total length: 124 cm",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue",
+    "lavande"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9608.JPEG",
+    "/assets/img/uploads/dresses/IMG_9622.JPEG",
+    "/assets/img/uploads/dresses/IMG_9793.JPEG",
+    "/assets/img/uploads/dresses/IMG_9744.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 4
+}
