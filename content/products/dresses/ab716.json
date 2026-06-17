@@ -1,0 +1,28 @@
+{
+  "article": "AB716",
+  "name": "Fabric: royal mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9636.JPEG",
+    "/assets/img/uploads/dresses/IMG_9639.JPEG",
+    "/assets/img/uploads/dresses/IMG_9676.JPEG",
+    "/assets/img/uploads/dresses/IMG_9605.JPEG",
+    "/assets/img/uploads/dresses/IMG_9796.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 9
+}
