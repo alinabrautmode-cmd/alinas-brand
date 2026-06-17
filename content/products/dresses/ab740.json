@@ -1,0 +1,28 @@
+{
+  "article": "AB740",
+  "name": "Fabric: dense mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light pink",
+    "light blue"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_1620.JPEG",
+    "/assets/img/uploads/dresses/IMG_1653.JPEG",
+    "/assets/img/uploads/dresses/IMG_1738.JPEG",
+    "/assets/img/uploads/dresses/IMG_1688.JPEG",
+    "/assets/img/uploads/dresses/IMG_1643.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 3
+}
