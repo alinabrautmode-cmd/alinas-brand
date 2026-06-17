@@ -1,0 +1,30 @@
+{
+  "article": "AB722",
+  "name": "Fabric: premium dense mango satin",
+  "tagline": "",
+  "description": "",
+  "colors": [
+    "ivory",
+    "black",
+    "light blue",
+    "lavande",
+    "сhocolate"
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L"
+  ],
+  "availability": "Made to order",
+  "images": [
+    "/assets/img/uploads/dresses/IMG_9728.JPEG",
+    "/assets/img/uploads/dresses/IMG_9729.JPEG",
+    "/assets/img/uploads/dresses/IMG_9760.JPEG",
+    "/assets/img/uploads/dresses/IMG_9606.JPEG",
+    "/assets/img/uploads/dresses/IMG_9730.JPEG",
+    "/assets/img/uploads/dresses/IMG_9814.JPEG"
+  ],
+  "published": true,
+  "sortOrder": 49
+}
